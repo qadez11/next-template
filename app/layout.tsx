@@ -37,7 +37,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <html lang="en" suppressHydrationWarning>
         <head />
         <body
-          className={`min-h-screen bg-background ${fontSans.variable} ${fontMono.variable} antialiased`}
+          className={`bg-background min-h-screen ${fontSans.variable} ${fontMono.variable} antialiased`}
         >
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
             <div className="relative flex min-h-screen flex-col">
